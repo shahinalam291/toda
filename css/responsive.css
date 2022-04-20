@@ -1,0 +1,556 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .single-input textarea {
+    width: 83.2rem;
+  }
+  .about-left {
+    padding-left: 7rem;
+  }
+  .about-left::before {
+    left: 1.5rem;
+  }
+  i.fa-solid.fa-bars-staggered {
+    font-size: 3rem;
+  }
+  .medium-margin {
+    margin-left: 0rem;
+  }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  #navbars {
+    position: fixed !important;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #201f24;
+    padding-top: 1.2rem;
+    padding-bottom: 0.4rem;
+  }
+  .navbar-icons {
+    font-size: 3rem;
+  }
+  .navbar-nav li a {
+    padding: 0.7rem 0rem;
+  }
+
+  .header-scrooll {
+    background: transparent;
+  }
+  .mt-300 {
+    margin-top: 12rem;
+  }
+  .my-details-left {
+    margin-bottom: 15rem;
+  }
+  .medium-margin {
+    margin-left: 32rem;
+  }
+  .same-header::before {
+    left: 40%;
+  }
+  .same-header::after {
+    left: 38.2%;
+  }
+  .same-title::before {
+    left: 60.8%;
+  }
+  .same-title::after {
+    left: 41.8%;
+  }
+  .single-input textarea {
+    width: 30rem;
+  }
+  .about-left::before {
+    top: -1rem;
+    left: 30rem;
+  }
+  .about-left {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  br.about-brack {
+    display: none;
+  }
+  .skills {
+    width: 100%;
+    max-width: 93.2rem;
+    overflow: hidden;
+  }
+  .mt-5 {
+    margin-top: 0.3rem !important;
+  }
+  .same-service-bottom {
+    margin-top: 2.8rem !important;
+  }
+  .service-icon-active {
+    margin-left: 41rem;
+  }
+  .extra-serivce {
+    margin-bottom: 2.5rem;
+  }
+  .service-icon {
+    margin-left: 41rem;
+  }
+  .projetc-icon {
+    margin-left: 20rem;
+  }
+  .single-porject {
+    margin-bottom: 6rem;
+  }
+  .single-educations-active {
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+  }
+  .single-educations {
+    margin-right: 1rem;
+  }
+  .blog-bottom {
+    margin-top: 2rem;
+  }
+  .single-ex {
+    margin-left: 24rem;
+    margin-bottom: 3rem;
+  }
+  .contact-two-input {
+    display: block;
+    margin-bottom: 3rem;
+  }
+  .single-two-input input {
+    width: 94rem;
+    margin-bottom: 3rem;
+  }
+  .single-three-input input {
+    width: 94rem;
+    margin-bottom: 1rem;
+  }
+  .single-input textarea {
+    width: 94rem;
+  }
+  .single-input textarea:focus {
+    outline: none;
+  }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  #navbars {
+    position: fixed !important;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #201f24;
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+  }
+  .navbar-icons {
+    font-size: 3rem;
+  }
+
+  .navbar-nav li a {
+    padding: 0.7rem 0rem;
+  }
+
+  .header-scrooll {
+    background: transparent;
+  }
+
+  .about-imgs {
+    width: 28rem;
+  }
+  .mt-180 {
+    margin-top: 12rem;
+  }
+  .mt-300 {
+    margin-top: 7rem;
+  }
+  .medium-margin {
+    margin-bottom: 6rem;
+    margin-left: 19rem;
+  }
+  .btn {
+    width: 13rem;
+    height: 4.5rem;
+    font-size: 1.7rem;
+  }
+  .btn-2 {
+    width: 14rem;
+    height: 4.4rem;
+    font-size: 1.8rem;
+  }
+  h2.same-header {
+    font-size: 4rem;
+  }
+  .same-header::before {
+    top: 6.8rem;
+    left: 38.8%;
+    width: 17rem;
+  }
+  .same-header::after {
+    top: 5.8rem;
+    left: 36.2%;
+  }
+  .same-title::before {
+    top: 5.8rem;
+    left: 62%;
+    z-index: 1;
+  }
+  .same-title::after {
+    width: 14rem;
+    top: 9rem;
+    left: 41.1%;
+  }
+  .about-left {
+    padding-left: 24rem;
+    position: relative;
+  }
+  .about-img {
+    width: 26rem;
+    height: auto;
+  }
+  .about-left::before {
+    top: -5rem;
+    left: 17rem;
+  }
+  .about-left {
+    margin-top: 6rem;
+  }
+  .about-left::before {
+    top: -6rem;
+    left: 17rem;
+  }
+  .about-title {
+    margin-top: 4rem;
+  }
+  .skills {
+    max-width: 93.2rem;
+    overflow: hidden;
+  }
+  .service-icon {
+    margin-left: 30rem;
+  }
+  .service-icon-active {
+    margin-left: 30rem;
+  }
+  .single-serivce-active {
+    margin-bottom: 2.4rem;
+  }
+  .projetc-icon {
+    margin-left: 31rem;
+  }
+  .single-porject {
+    margin-bottom: 4rem;
+  }
+  .educations {
+    margin-top: 3rem;
+  }
+  .single-educations-active {
+    margin-right: 0rem;
+  }
+  .single-educations {
+    margin-right: 0rem;
+  }
+  .galiry-img {
+    text-align: center;
+  }
+  .blog-medile {
+    margin-bottom: 2rem;
+  }
+  .single-ex {
+    margin-left: 17rem;
+    margin-bottom: 3rem;
+  }
+  .contact-two-input {
+    display: block;
+    margin-bottom: 3rem;
+  }
+  .single-two-input input {
+    width: 70rem;
+    margin-bottom: 3rem;
+  }
+  .single-three-input input {
+    width: 70rem;
+    margin-bottom: 1rem;
+  }
+  .single-input textarea {
+    width: 70rem;
+  }
+  .single-input textarea:focus {
+    outline: none;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #navbars {
+    position: fixed !important;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #201f24;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .navbar-icons {
+    font-size: 3rem;
+    margin-right: 2rem;
+  }
+
+  .navbar-nav li a {
+    padding: 0.7rem 0rem;
+  }
+
+  .header-scrooll {
+    background: transparent;
+    margin: 0 !important;
+  }
+
+  .logo {
+    font-size: 3rem;
+  }
+
+  #home {
+    width: 100%;
+    min-height: 73.7rem;
+  }
+  .port-button li {
+    padding: 0.8rem 1.2rem;
+    font-size: 1.3rem;
+  }
+  h2.same-header {
+    font-size: 4rem;
+  }
+  .same-header::before {
+    top: 6.3rem;
+    left: 29.8%;
+    width: 15.5rem;
+  }
+  .same-header::after {
+    top: 5.5rem;
+    left: 25.2%;
+  }
+  .same-title::before {
+    top: 5.5rem;
+    left: 67%;
+    z-index: 1;
+  }
+  .same-title::after {
+    width: 12.8rem;
+    top: 8rem;
+    left: 34%;
+  }
+  .about-left {
+    padding-left: 10rem;
+  }
+  .about-imgs {
+    height: auto;
+    width: 20rem;
+  }
+  .mt-180 {
+    margin-top: 11rem;
+  }
+  .mt-300 {
+    margin-top: 3rem;
+  }
+  .welcome-here {
+    font-size: 2rem;
+  }
+  h1.my-name {
+    font-size: 4rem;
+  }
+  .my-title {
+    font-size: 1.8rem;
+  }
+  .mb-35 {
+    margin-bottom: 2rem;
+  }
+  .about-img {
+    width: 23rem;
+    height: auto;
+  }
+  .medium-margin {
+    margin-left: 5rem;
+  }
+  .btn {
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+  .btn-2 {
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+  .about-title {
+    margin-top: 3.5rem;
+  }
+  .extra-serivce {
+    margin-bottom: 2.6rem;
+  }
+  .projetc-icon {
+    margin-left: 15rem;
+  }
+  .single-porject {
+    margin-bottom: 4rem;
+  }
+  .extra-educations {
+    margin-top: 2rem;
+  }
+  .single-educations-active {
+    margin-right: 0rem;
+  }
+  .single-educations {
+    margin-right: 0rem;
+  }
+  .about-left::before {
+    width: 32rem;
+    height: 31.5rem;
+    top: -1rem;
+    left: 5rem;
+  }
+
+  .service-icon-active {
+    margin-left: 15rem;
+  }
+  .service-icon {
+    margin-left: 15rem;
+  }
+
+  .single-blog-active {
+    margin-bottom: 2.5rem;
+  }
+
+  .single-blog {
+    margin-bottom: 2.5rem;
+  }
+  .contact-two-input {
+    display: block;
+    margin-bottom: 3rem;
+  }
+  .single-two-input input {
+    width: 37rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin-left: 1rem;
+  }
+  .single-three-input input {
+    width: 37rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+  }
+  .single-input textarea {
+    width: 37rem;
+    text-align: center;
+    margin-left: 1rem;
+  }
+  .single-input-button input {
+    margin-left: 1rem;
+  }
+  .bot-mar {
+    margin-bottom: 0rem;
+  }
+
+  ul.footer-socila-link li {
+    display: inline-block;
+    margin: 0rem 0.5rem;
+  }
+
+  ul.footer-socila-link li a i {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+/* Large Mobile :400px. */
+@media (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #navbars {
+    position: fixed !important;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #201f24;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  h1.my-name {
+    font-size: 3rem;
+  }
+
+  .btn {
+    margin-bottom: 3.5rem;
+  }
+
+  .btn-2 {
+    margin-bottom: 3.5rem;
+  }
+
+  .same-title::after {
+    width: 11rem;
+    top: 8rem;
+    left: 33%;
+  }
+
+  .same-header::before {
+    top: 6.3rem;
+    left: 29.8%;
+    width: 13rem;
+  }
+
+  .same-title::before {
+    top: 5.5rem;
+    left: 65%;
+    z-index: 1;
+  }
+
+  .about-left {
+    padding-left: 8rem;
+  }
+
+  .about-left::before {
+    width: 31rem;
+    left: 3rem;
+  }
+
+  .single-two-input input {
+    width: 34rem;
+  }
+
+  .single-three-input input {
+    width: 34rem;
+  }
+
+  .single-input textarea {
+    width: 34rem;
+  }
+
+  .skills {
+    width: 94%;
+    margin-left: 0.6rem;
+  }
+
+  .service-icon-active {
+    margin-left: 13rem;
+  }
+  .service-icon {
+    margin-left: 13rem;
+  }
+
+  .port-button li {
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,700 @@
+/*----------------------
+  Name: Toda - Personal Portfolio HTML Template
+  Author:   shahin291
+  Support:  freelancershahin@gmail.com
+  Description: Creative  HTML5 template.
+  Copyright: 2022
+  Version: 1.0
+ 
+  CSS Index 
+
+1. header -> navbar
+2. hero
+3. About Me
+4. Service
+5. counter
+6. Experience
+7. Testimonials
+8. galary
+9. blog
+10. Contact Me
+11. footer
+
+---------------------*/
+/* preloader css */
+
+.someBlock {
+  position: relative;
+}
+
+/*------------ Navbar CSS Start  -----------*/
+#navbars {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.logo {
+  font-family: "Russo One", sans-serif;
+  font-size: 4.2rem;
+  color: #fe7e11;
+}
+
+.navbar-nav li {
+  margin-left: 3rem;
+}
+
+.navbar-nav li a {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 3rem 0rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.header-scrooll {
+  background: #201f24;
+}
+
+nav ul li a:hover {
+  color: #fe7e11 !important;
+}
+
+.active a {
+  color: #fe7e11 !important;
+}
+
+/*------------ hero CSS Start  -----------*/
+#home {
+  background: #2b2a2f;
+  width: 100%;
+  min-height: 93.7rem;
+  position: relative;
+}
+
+.welcome-here {
+  color: #ffff;
+  display: block;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+}
+
+h1.my-name {
+  font-size: 7rem;
+  color: #fe7e11;
+  font-weight: bold;
+}
+
+.textadd {
+  color: #fe7e11;
+}
+
+.my-title {
+  font-size: 2.5rem;
+  color: #e0dede;
+  display: block;
+}
+
+.my-details {
+  color: #e0dede;
+}
+
+/*------------ About Me CSS Start  -----------*/
+#about-me {
+  background: #27262b;
+}
+
+.about-img {
+  width: 30rem;
+  height: auto;
+  position: relative;
+  cursor: pointer;
+}
+
+.about-left {
+  padding-left: 8rem;
+  position: relative;
+}
+
+.about-left::before {
+  position: absolute;
+  content: "";
+  width: 43rem;
+  height: 40.5rem;
+  background: #2b2a2f;
+  top: -1rem;
+  left: 1rem;
+  border-left: 1rem solid #fe7e11;
+  border-bottom: 1rem solid #fe7e11;
+}
+
+.about-title {
+  font-size: 2.4rem;
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  line-height: 3.8rem;
+}
+
+.about-dec {
+  font-family: "Lato", sans-serif;
+}
+
+.skills {
+  width: 100%;
+  max-width: 74.7rem;
+  overflow: hidden;
+}
+
+.skill-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  margin: 0.9rem 0;
+}
+
+.skill-bar {
+  height: 1.4rem;
+  background: #fff;
+  border-radius: 0.3rem;
+}
+
+.skill-per {
+  height: 1.4rem;
+  background: #fe7e11;
+  border-radius: 0.3rem;
+  position: relative;
+  -webkit-animation: fillBars 2.5s 1;
+  animation: fillBars 2.5s 1;
+}
+
+.skill-per::before {
+  content: attr(per);
+  position: absolute;
+  padding: 0px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  top: -38px;
+  color: #fe7e11;
+  font-size: 2rem;
+  right: 0;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+.skill-per::after {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: -2rem;
+  right: 0;
+  -webkit-transform: translateX(50%) rotate(45deg);
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 0.2rem;
+}
+
+@-webkit-keyframes fillBars {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes fillBars {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/*------------ Service CSS Start  -----------*/
+#service {
+  background: #2b2a2f;
+}
+
+.single-serivce {
+  background: #27262b;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.service-icon {
+  background: #fff;
+  width: 7rem;
+  height: 7rem;
+  display: -ms-grid;
+  display: grid;
+  font-size: 3rem;
+  color: #fe7e11;
+  border-radius: 100%;
+  margin-left: 17rem;
+  place-items: center;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.serivce-head {
+  font-size: 2.7rem;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+}
+
+.service-title {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.1rem;
+  margin-bottom: 3rem;
+}
+
+.single-serivce:hover {
+  -webkit-box-shadow: 0rem 0.5rem 0rem #201f24;
+  box-shadow: 0rem 0.5rem 0rem #201f24;
+  margin-top: -1rem;
+}
+
+.single-serivce:hover .service-icon {
+  color: #fff;
+  background: #fe7e11;
+}
+
+.single-serivce-active {
+  background: #27262b;
+  cursor: pointer;
+  -webkit-box-shadow: 0rem 0.5rem 0rem #201f24;
+  box-shadow: 0rem 0.5rem 0rem #201f24;
+  margin-top: -1rem;
+}
+
+.service-icon-active {
+  background: #fe7e11;
+  width: 7rem;
+  height: 7rem;
+  display: -ms-grid;
+  display: grid;
+  font-size: 3rem;
+  color: #fff;
+  border-radius: 100%;
+  margin-left: 17rem;
+  place-items: center;
+}
+
+/*------------ counter CSS Start  -----------*/
+#Project {
+  background: #2e2d32;
+}
+
+.projetc-icon {
+  width: 6rem;
+  background: #201f24;
+  height: 6rem;
+  margin-bottom: 1rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+  font-size: 2.8rem;
+  margin-left: 12rem;
+}
+
+.porject-done {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  color: #fe7e11;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+strong.project-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+/*------------ Experience CSS Start  -----------*/
+#Experience {
+  background: #2b2a2f;
+  font-family: "Lato", sans-serif;
+}
+
+.educations {
+  font-size: 3.2rem;
+  text-transform: capitalize;
+  position: relative;
+  display: block;
+}
+
+.educations::before {
+  position: absolute;
+  content: "";
+  width: 17rem;
+  height: 0.3rem;
+  top: 5.2rem;
+  left: 0rem;
+  background: #fe7e11;
+}
+
+.educations::after {
+  position: absolute;
+  content: "";
+  width: 15rem;
+  height: 0.3rem;
+  top: 6.2rem;
+  left: 0rem;
+  background: #fff;
+}
+
+.single-educations-active {
+  background: #27262b;
+  padding: 3rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
+  -webkit-box-shadow: 0rem 0.5rem 0rem #201f24;
+  box-shadow: 0rem 0.5rem 0rem #201f24;
+  position: relative;
+}
+
+.single-educations-active::before {
+  position: absolute;
+  content: "";
+  left: 0rem;
+  top: 0rem;
+  width: 5rem;
+  height: 5rem;
+  border-style: solid;
+  border-width: 5rem 5rem 0 0;
+  border-color: #fe7e11 transparent transparent transparent;
+}
+
+.single-educations {
+  background: #27262b;
+  padding: 3rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
+  position: relative;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.single-educations::after {
+  position: absolute;
+  content: "";
+  left: 0rem;
+  top: 0rem;
+  width: 5rem;
+  height: 5rem;
+  border-style: solid;
+  border-width: 5rem 5rem 0 0;
+  border-color: #fe7e11 transparent transparent transparent;
+}
+
+.single-educations-active {
+  background: #27262b;
+  padding: 3rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
+  -webkit-box-shadow: 0rem 0.5rem 0rem #201f24;
+  box-shadow: 0rem 0.5rem 0rem #201f24;
+}
+
+.single-educations:hover {
+  -webkit-box-shadow: 0rem 0.5rem 0rem #201f24;
+  box-shadow: 0rem 0.5rem 0rem #201f24;
+}
+
+strong.edu-body {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+  display: block;
+  color: #fe7e11;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.single-educations:hover .edu-body {
+  color: #fff;
+}
+
+.single-educations-active strong {
+  color: #fff;
+}
+
+/*------------ Testimonials CSS Start -----------*/
+#Testimonials {
+  background: #2e2d32;
+}
+
+.single-test {
+  background: #27262b;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  border-left: 1rem solid #fe7e11;
+  border-bottom: 1rem solid #fe7e11;
+}
+
+img.test-img {
+  width: 9rem;
+  margin: auto;
+  height: auto;
+  display: block;
+  border-radius: 100%;
+  margin-top: -4rem;
+  border: 0.2rem solid #fe7e11;
+}
+
+.text-name {
+  font-size: 3rem;
+}
+
+ul.slick-dots li button {
+  width: 2rem;
+  margin-right: 1rem;
+  height: 2rem;
+  border-radius: 100%;
+  background: #fe7e11;
+}
+
+.slick-active button {
+  background: #fff !important;
+}
+
+/*------------ galary CSS Start -----------*/
+#portfolio {
+  background: #2b2a2f;
+}
+
+.port-button li {
+  font-weight: bold;
+  margin-right: 1.5rem;
+  padding: 1rem 1.5rem;
+  background: #fe7e11;
+  border-radius: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-bottom: 3.5rem;
+}
+
+.mixitup-control-active {
+  background: #fff !important;
+  color: #fe7e11;
+}
+
+.port-img {
+  border-radius: 1rem;
+}
+
+.propup-img {
+  width: 100px !important;
+  overflow: hidden;
+}
+
+.galiry-img {
+  margin-bottom: 1rem;
+}
+
+/*------------ My Blog CSS Start -----------*/
+#blog {
+  background: #2e2d32;
+}
+
+.single-blog-active {
+  background: #27262b;
+  -webkit-box-shadow: 0rem 0.5rem 0rem #201f24;
+  box-shadow: 0rem 0.5rem 0rem #201f24;
+}
+
+.single-blog {
+  background: #27262b;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.single-blog:hover {
+  -webkit-box-shadow: 0rem 0.5rem 0rem #201f24;
+  box-shadow: 0rem 0.5rem 0rem #201f24;
+}
+
+.card-img-top {
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+h3.card-title {
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  margin: 1rem;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+p.card-text {
+  margin: 1rem;
+  font-family: "Lato", sans-serif;
+}
+
+.btn-4-active {
+  background: #fe7e11;
+  border-radius: 2rem;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  margin: 1rem;
+  place-items: center;
+  width: 14rem;
+  height: 5rem;
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-4-active:hover {
+  background-color: #27262b;
+  border: 0.2rem solid #fff;
+}
+
+a.btn-4 {
+  border-radius: 2rem;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  margin: 1rem;
+  place-items: center;
+  width: 14rem;
+  height: 5rem;
+  display: -ms-grid;
+  display: grid;
+  font-weight: bold;
+  color: #fff;
+  border: 0.2rem solid #fff;
+}
+
+a.btn-4:hover {
+  background: #fe7e11;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  border: none;
+}
+
+/*------------ Contact Me CSS Start -----------*/
+#contact {
+  background: #2b2a2f;
+}
+
+.single-ex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.single-ex-icon {
+  width: 7rem;
+  margin-bottom: 2rem;
+  border: 0.2rem solid #fe7e11;
+  border-radius: 15rem;
+  height: 7rem;
+  background: #27262b;
+  margin-right: 3.8rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+h3.single-ex-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.contact-two-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.single-two-input input {
+  width: 40rem;
+  background: transparent;
+  padding: 1rem;
+  border: 0.1rem solid #fe7e11;
+  outline: none;
+  margin-right: 3rem;
+}
+
+.single-three-input input {
+  width: 40rem;
+  background: transparent;
+  padding: 1rem;
+  outline: none;
+  border: 0.1rem solid #fff;
+}
+
+.single-input textarea {
+  background: transparent;
+  border: 0.1rem solid #fff;
+  color: #fff;
+  width: 83rem;
+}
+
+.single-input-button input {
+  width: 21rem;
+  padding: 1rem 0rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 2.2rem;
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+  color: #fff;
+  background: #fe7e11;
+}
+
+/* footer css start  */
+#footer {
+  background: #2e2d32;
+}
+
+ul.footer-socila-link li {
+  display: inline-block;
+  margin: 0rem 1rem;
+}
+
+ul.footer-socila-link li a i {
+  width: 3.8rem;
+  height: 3.8rem;
+  display: -ms-grid;
+  display: grid;
+  background: #fe7e11;
+  place-items: center;
+  border-radius: 2rem;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.footer-socila-link li a i:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #fe7e11;
+  background: #fff;
+}
+
+nav ul li a:active {
+  color: #fe7e11 !important;
+}
